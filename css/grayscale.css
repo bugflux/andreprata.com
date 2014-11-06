@@ -136,7 +136,7 @@ a:focus {
 
 .intro .intro-body .photo-badge {
     margin: 0 0 35px;
-    width: 100px;
+    width: 150px;
 }
 
 @media(min-width:767px) {
