@@ -14,8 +14,8 @@ window.onload = function() {
 	});
 
 	new Mosaic({
-		x: 2 + parseInt(screen.width / 384, 10),
-		y: 2 + parseInt(screen.height / 384, 10),
+		x: 1 + parseInt((window.innerWidth / window.devicePixelRatio) / 192, 10),
+		y: 1 + parseInt((window.innerHeight / window.devicePixelRatio) / 192, 10),
 
 		xMax: 6, // optional. default: x
 		yMax: 4, // optional. default: y
