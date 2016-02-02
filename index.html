@@ -1,154 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+	<meta charset="UTF-8">
+	<title>André Prata</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Landing page for André Prata">
-    <meta name="keywords" content="André,Prata,bugflux,nDray">
-    <meta name="author" content="André Prata">
+	<script src="js/lib/museic.js"></script>
+	<script src="js/lib/museic-image-provider.js"></script>
+	<script src="js/index.js"></script>
 
-    <title>André Prata</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<style>
+		html,body,#container {width: 100%; height: 100%; margin: 0;}
+	</style>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Prefetch images -->
-    <div style="display: none !important;">
-       <img src="img/intro-bg.jpg" alt=""/>
-       <img src="img/link-bg.jpg" alt=""/>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li >
-                        <a class="page-scroll" href="#page-top">Top</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#link">Link</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div><img src="img/id.png" class="photo-badge"/></div>
-                        <h1 class="brand-heading">André Prata</h1>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About me</h2>
-                <p>I'm 27 years old. Portuguese, living in Lisbon.</p>
-
-                <p>I completed a <a href="http://www.ua.pt/deti/PageCourse.aspx?id=23&b=1&lg=en" target="_blank">Masters in Computer and Telematics Engineering</a> at the <a href="http://www.ua.pt/" target="_blank">University of Aveiro</a>. I wrote my masters dissertation while holding a Junior Research position with the <a href="http://atnog.av.it.pt/" target="_blank">ATNoG</a> group at <a href="http://www.it.pt/" target="_blank">Instituto de Telecomunicações</a>.</p>
-
-                <p>After one year at <a href="http://www.novabase.pt/" target="_blank">Novabase</a>, where I developed three independent projects for <a href="http://www.vodafone.pt/" target="_blank">Vodafone Portugal</a>, I opted to join a larger team, split across Paris and Lisbon in a project for <a href="http://securities.bnpparibas.com/" target="_blank">BNP Paribas</a>. Right now I'm a part of the delivery team at <a href="https://www.feedzai.com/" target="_blank">Feedzai</a>.</p>
-
-                <p>During my spare time I like to hang out with my camera/friends, listen/play music, and go to the movies. I am particularly interested in photography, as well as psychology and sociology.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="link" class="container content-section text-center link-section">
-        <div class="row">
-            <h2>Contact</h2>
-
-            <p>Hit me at any time</p>
-
-            <p><a href="mailto:mail@andreprata.com">mail@andreprata.com</a></p>
-
-            <ul class="list-inline banner-social-buttons">
-                <li>
-                    <a href="http://photography.andreprata.com/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-wordpress fa-fw"></i> <span class="network-name">Photography</span></a>
-                </li>
-                <li>
-                    <a href="https://www.flickr.com/photos/bugflux" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-flickr fa-fw"></i> <span class="network-name">Flickr</span></a>
-                </li>
-            </ul>
-            <ul class="list-inline banner-social-buttons">
-                <li>
-                    <a href="https://www.facebook.com/bugflux" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                </li>
-                <li>
-                    <a href="https://plus.google.com/+Andr%C3%A9Prata/posts" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/bugflux" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; André Prata 2015</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+<body>
 </body>
 
 </html>
